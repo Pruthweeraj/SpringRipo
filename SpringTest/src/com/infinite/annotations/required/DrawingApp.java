@@ -8,7 +8,7 @@ public class DrawingApp {
 	public static void main(String[] args) {
 		
 		//CodeToInterFace
-		String configLocation = "springRequired.xml";
+		String configLocation = "classpath:/com/infinite/annotations/required/springRequired.xml";
 		ApplicationContext context = new ClassPathXmlApplicationContext(configLocation);
 	
 		

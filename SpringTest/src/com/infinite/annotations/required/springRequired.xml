@@ -27,7 +27,7 @@
 	</bean>
 	
 	<bean id="circle" class="com.infinite.annotations.required.Circle">
-		
+			
 	</bean>
 
 
