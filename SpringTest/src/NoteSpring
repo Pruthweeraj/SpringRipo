@@ -14,12 +14,12 @@ map(xxx)
 
 autowiring
 
-scopr
+scope
 Basic Bean Scope
 SingleTon
 Prototype
-Web-aware Scopr
-Requesr(New bean per servlet request).
+Web-aware Scope
+Request(New bean per servlet request).
 Session (new bean per http session).
 Global Session (New bean per global HTTP session (portlet context)).
 
@@ -37,6 +37,9 @@ parent="parent_id_name".
 
 
 
-ok
+LifeCycle 
+BeanPostprocessor
+BeanFactoryPostProcessor
+
 
 

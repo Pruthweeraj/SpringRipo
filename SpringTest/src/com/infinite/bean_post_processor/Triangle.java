@@ -1,9 +1,6 @@
-package com.infinite.bean_lifecycle;
+package com.infinite.bean_post_processor;
 
-import org.springframework.beans.factory.DisposableBean;
-import org.springframework.beans.factory.InitializingBean;
-
-public class Triangle implements InitializingBean,DisposableBean{
+public class Triangle {
 
 	private Point pointA;
 	private Point pointB;
@@ -37,24 +34,6 @@ public class Triangle implements InitializingBean,DisposableBean{
 		System.out.println("Point A("+pointA.getX()+" , "+pointA.getY()+")");
 		System.out.println("Point B("+pointB.getX()+" , "+pointB.getY()+")");
 		System.out.println("Point C("+pointC.getX()+" , "+pointC.getY()+")");
-	}
-
-	@Override
-	public void destroy() throws Exception {
-		System.out.println("DisposableBean destroy method called for Traingle");
-	}
-
-	@Override
-	public void afterPropertiesSet() throws Exception {
-		System.out.println("InitializingBean Init method calleed for Triangle");
-	}
-	
-	public void myInit(){
-		System.out.println("myInit() called for Triangle");
-	}
-	
-	public void MyCleanUp(){
-		System.out.println("MyCleanUp() destroy method called for Triangle");
 	}
 	
 }

@@ -23,7 +23,7 @@ public static void main(String[] args) {
 	
 	//creating instance by using ApplicationContext
 	ApplicationContext context = new ClassPathXmlApplicationContext("springconfig.xml");
-	Triangle triangle = (Triangle)context.getBean("triangle");
+	Triangle triangle = (Triangle)context.getBean("triangle-alias");
 	triangle.draw();
 		
 	
