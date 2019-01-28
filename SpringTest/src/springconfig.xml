@@ -58,17 +58,17 @@
 	</bean>
 </beans> -->
 
-<!-- <beans>
-	<bean id="triangle" class="com.infinite.spring_test.Triangle">
+<beans>
+	<!-- <bean id="triangle" class="com.infinite.spring_test.Triangle">
+		<constructor-arg index="0" value="50" />
+		<constructor-arg index="1" value="Equilateral" />
+	</bean> -->
+
+
+
+ 	<bean id="triangle" class="com.infinite.spring_test.Triangle">
 		<constructor-arg index="0" value="50" />
 		<constructor-arg index="1" value="Equilateral" />
 	</bean>
-</beans> -->
 
-
-<bean id="triangle" class="com.infinite.spring_test.Triangle">
-		<constructor-arg index="0" value="50" />
-		<constructor-arg index="1" value="Equilateral" />
-	</bean>
-
-
+</beans> 

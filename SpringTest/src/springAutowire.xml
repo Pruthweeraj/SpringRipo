@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+    "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<!--  Autowiring 
+ byName
+ byType (but only one bena inside)
+ constructore  (but only one bena inside)
+-->
+
+<!-- 	Scope
+	singleton
+	prototype
+	request
+	session
+	global-session
+	 -->
+<beans>
+
+	<bean id="triangle" class="com.infinite.autowiring.Triangle" autowire="byName"  scope="prototype">
+		
+	</bean>
+
+	<bean id="pointA" class="com.infinite.autowiring.Point">
+		<property name="x" value="0"/>
+		<property name="y" value="0"/>
+	</bean>
+
+	<bean id="pointB" class="com.infinite.autowiring.Point">
+		<property name="x" value="20"/>
+		<property name="y" value="10"/>
+	</bean>
+
+	<bean id="pointC" class="com.infinite.autowiring.Point">
+		<property name="x" value="-20"/>
+		<property name="y" value="5"/>
+	</bean>
+
+</beans>
