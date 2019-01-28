@@ -1,0 +1,42 @@
+SPRING
+creating instance by using XML BeanFactory.
+creating instance by using Context.
+SetterInjection.
+ConstructoreInjection.
+ObjectInjection.
+InnerBean.
+alias.
+idref(xxxx)
+initializationCollection
+list
+set(xxx)
+map(xxx)
+
+autowiring
+
+scopr
+Basic Bean Scope
+SingleTon
+Prototype
+Web-aware Scopr
+Requesr(New bean per servlet request).
+Session (new bean per http session).
+Global Session (New bean per global HTTP session (portlet context)).
+
+ApplicationContextAware( I ).
+BeanNameAware( I ).
+
+Bean Definitation Inheritance
+abstract="true".
+parent="parent_id_name".
+(In case of collection) <property name ="points">
+                                            <list merge="true">
+                                                  <ref bran="pointB" />
+                                             </list>
+                                       </property>
+
+
+
+
+
+
