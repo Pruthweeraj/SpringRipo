@@ -99,6 +99,6 @@ case1 if one bean of sane datatype is present then spring configure that value
 
 		
 		
-		<!-- shortcut to import all annotations -->
+		<!-- shor tcut to import all annotations -->
 		<context:annotation-config />
 </beans>
