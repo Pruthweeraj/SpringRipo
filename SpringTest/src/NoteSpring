@@ -42,5 +42,26 @@ BeanPostprocessor
 BeanFactoryPostProcessor
 
 **********************************
+@Required 
+@AutoWired
+@Qualifier("circleType")
+
+JSR 250 Annotation
+@Resource(name="point2")------(a property of bean)
+@PostConstruct(after initialization of the bean)
+@PreDestroy(before Destroying the bean)
+
+for scanning the package for annotation 
+		<context:component-scan base-package="com.infinite.annotations.jsr_250" />
+		
+ shortcut to import all annotations 
+		<context:annotation-config />
+		
+
+@Component//telling spring this is a 'bean' means Component		
+@Service//telling spring this bean is a service
+@Repository//telling spring this bean is a Repository
+@Controller//telling spring this bean is a Controller
 
 
+@
