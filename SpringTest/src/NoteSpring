@@ -9,8 +9,8 @@ alias.
 idref(xxxx)
 initializationCollection
 list
-set(xxx)
-map(xxx)
+set(xxxx)
+map(xxxx)
 
 autowiring
 
@@ -41,7 +41,7 @@ LifeCycle
 BeanPostprocessor
 BeanFactoryPostProcessor
 
-**********************************
+
 @Required 
 @AutoWired
 @Qualifier("circleType")
@@ -63,6 +63,15 @@ for scanning the package for annotation
 @Repository//telling spring this bean is a Repository
 @Controller//telling spring this bean is a Controller
 
+Spring Core
+spring vs struts
+spring and struts
+BeanFactory
+IOC Container (Core Container)
+Setter Injection vs Constructor Injection
+Circular dependency
+Bean Inheritance 
+Bean Inheritance through Constructor.	
+drawbacks by using bean auto wiring
 
-@
 
