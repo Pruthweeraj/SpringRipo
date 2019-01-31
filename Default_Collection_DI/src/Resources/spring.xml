@@ -4,35 +4,39 @@
 
 <beans>
 
-	<bean id="engine1" class="beans.Engine">
-		<property name="modelYear" value="2014"></property>
-	</bean>
-
-	<bean id="engine2" class="beans.Engine">
-		<property name="modelYear" value="2016"></property>
-	</bean>
-
-	<bean id="engine3" class="beans.Engine">
-		<property name="modelYear" value="2019"></property>
-	</bean>
-
-
-	<bean id="car" class="beans.Car">
-		<property name="carName">
+	<bean id="test" class="beans.Test">
+		<property name="frouts">
 			<list>
-				<value>Glamour</value>
-				<value>Sine</value>
-				<value>RoialEnfield</value>		
+				<value>Apple</value>
+				<value>Orange</value>
+				<value>Pomogranate</value>
 			</list>
 		</property>
-		
-		<property name="engine">
-		<list>
-		<ref bean="engine1"></ref>
-		<ref bean="engine2"></ref>
-		<ref bean="engine3"></ref>
-		</list>
+
+		<property name="languages">
+			<set>
+				<value>C</value>
+				<value>Java</value>
+				<value>c++</value>
+				<value>Spring_Core</value>
+			</set>
 		</property>
+
+		<property name="smartPhones">
+		<map>
+		<entry key="Mi" value="13900" />
+		<entry key="Nokia" value="14500" />
+		<entry key="Samsung" value="14200" />
+		<entry key="Apple" value="45000" />
+		</map>
+		</property>
+
 	</bean>
+
+
+
+
+
+
 
 </beans>
