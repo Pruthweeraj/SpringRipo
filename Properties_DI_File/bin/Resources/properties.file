@@ -1,0 +1,5 @@
+From=Properties.file
+Driver=OracleDriver
+Url=OracleUrl
+userName=System
+Password=Admin

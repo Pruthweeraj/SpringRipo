@@ -1,0 +1,42 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+
+<beans>
+
+	<bean id="test" class="beans.Test">
+		<property name="frouts">
+			<list>
+				<value>Apple</value>
+				<value>Orange</value>
+				<value>Pomogranate</value>
+			</list>
+		</property>
+
+		<property name="languages">
+			<set>
+				<value>C</value>
+				<value>Java</value>
+				<value>c++</value>
+				<value>Spring_Core</value>
+			</set>
+		</property>
+
+		<property name="smartPhones">
+		<map>
+		<entry key="Mi" value="13900" />
+		<entry key="Nokia" value="14500" />
+		<entry key="Samsung" value="14200" />
+		<entry key="Apple" value="45000" />
+		</map>
+		</property>
+
+	</bean>
+
+
+
+
+
+
+
+</beans>
